@@ -1,0 +1,46 @@
+body {
+  /* background-image: url("/static/images/background.jpg"); */
+  background-repeat: repeat-y;
+}
+
+h1 {
+  font-family: 'Hachi Maru Pop', cursive;
+  font-size: 40px;
+  margin: 20px auto;
+}
+
+.form {
+  /*background-color: blueviolet;*/
+}
+
+.form input {
+  height: 25px;
+  border-radius: 4px;
+  margin: 2px auto;
+}
+
+.form input:nth-child(1) {
+  width: 200px;
+}
+
+.form input:nth-child(3) {
+  width: 600px;
+}
+
+.form input:nth-child(4) {
+  height: 32px;
+  width: 80px;
+}
+
+.contents {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: 20px 15px;
+  border: 1px solid #3c3c3c;
+  padding: 10px 5px;
+  box-shadow: 2px 2px 6px rgb(157, 157, 157);
+}
+
+.contents .name {
+  color: rgb(31, 91, 181);
+}
